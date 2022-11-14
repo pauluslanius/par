@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Паровозы. Главная страница</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="description" content="Всякая фигня про паровозы">
+<style>
+
+
+ td {
+  border: 1px solid;
+  background-color: lightblue;
+  text-align:left;
+}
+ th {
+  border: 2px solid;
+  background-color: green;    
+}
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+header {
+     background-image: url("c2.jpg");
+     background-size: 100% 100%;
+     padding:30px;
+     text-align:center;
+     font-size:20px;
+}
+
+
+
+.aside ul {
+  list-style-type: none;
+  background-color: lightblue;
+  padding: 15px;
+  text-align: center;
+  margin: 0;
+}
+.aside li {
+  margin-bottom: 5px;
+  background-color:green;
+  border:2px solid green;
+}
+
+.aside li:hover {
+  background-color: #3e8e41;
+}
+
+
+footer {
+     background-image: url("b2.jpg");
+     background-size: 100% 100%;
+     padding:10px;
+}
+
+
+
+
+.button {
+  background-color:green;
+  border:1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 90%;
+}
+.button:hover {
+  background-color: #3e8e41;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+a:link {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<h1 style="text-align:center; font-size: 200%;" >Паровозы. Каталог</h1>
+
+</header>
+
+
+<div class="row">
+  
+<div class="col-3">
+    <div class="aside">
+    <ul>
+      <li><a href="su1.html"> <p style=font-size:17px;color:white;>С<sup>у</sup>. Первый выпуск</p> </a></li>
+      <li><a href="su2.html"> <p style=font-size:17px;color:white;>С<sup>у</sup>. Второй выпуск</p> </a></li>      
+      <li><a href="su3.html"> <p style=font-size:17px;color:white;>С<sup>у</sup>. Третий выпуск</p> </a></li>
+      <li><a href="su4.html"> <p style=font-size:17px;color:white;>С<sup>у</sup>. Четвертый выпуск</p> </a></li>
+      
+      <li><a href="e1.html"> <p style=font-size:17px;color:white;>Э</p> </a></li>
+      <li><a href="e2.html"> <p style=font-size:17px;color:white;>Э<sup>у</sup></p> </a></li>      
+      <li><a href="e3.html"> <p style=font-size:17px;color:white;>Э<sup>м</sup></p> </a></li>
+      <li><a href="e4.html"> <p style=font-size:17px;color:white;>Э<sup>р</sup></p> </a></li>
+      
+      <li><a href="is1.html"> <p style=font-size:17px;color:white;>ИС20 2П</p> </a></li>
+      <li><a href="is2.html"> <p style=font-size:17px;color:white;>ИС20 10П</p> </a></li>      
+      <li><a href="is3.html"> <p style=font-size:17px;color:white;>ИС21</p> </a></li>
+
+      <li><a href="qviz.html"> <p style=font-size:17px;color:white;>Вопросы</p> </a></li>
+          
+    </ul>
+    </div>
+  </div>
+
+
+
+  <div class="col-9">
+<p style=text-align:center;>
+<table>
+<tr>
+<th style=width:20%;>1ый выпуск</th>
+<th style=width:20%;>2ой выпуск</th>
+<th style=width:20%;>3ий выпуск</th>
+<th style=width:20%;>4ый выпуск</th>
+</tr>
+<tr>
+<td> <p style=text-align:center;> <a href="su1.html"> <img src="su1a.gif" alt="картинка Су 1 вып">  </a> </p> </td>
+<td> <p style=text-align:center;> <a href="su2.html"> <img src="su2a.jpg" alt="картинка Су 2 вып">  </a> </p> </td>
+<td> <p style=text-align:center;> <a href="su3.html"> <img src="su3a.jpg" alt="картинка Су 3 вып">  </a> </p> </td>
+<td> <p style=text-align:center;> <a href="su4.html"> <img src="su4a.jpg" alt="картинка Су 4 вып">  </a> </p> </td>
+</tr>
+<tr>
+<td>Вариант с медной топкой и дышлами Гласса.</td>
+<td>Вариант с железной топкой, увеличиным диаметром барабанной части котла и постепенным внедрением сварки.</td>
+<td>Вариант с увеличенными шейками движущих осей. Поздние выпуски имели вентиляторную тягу.</td>
+<td>Послевоенный выпуск.</td>
+</tr>
+</table>
+</p>
+<p>
+<table>
+<tr>
+<th style=width:20%;>Э</th>
+<th style=width:20%;>Э<sup>у</sup></th>
+<th style=width:20%;>Э<sup>м</sup></th>
+<th style=width:20%;>Э<sup>р</sup></th>
+</tr>
+<tr>
+<td> <p style=text-align:center;> <a href="e1.html"> <img src="e1a.jpg" alt="картинка Э дорев.">  </a> </p> </td>
+<td> <p style=text-align:center;> <a href="e2.html"> <img src="e2a.jpg" alt="картинка Эу">  </a> </p> </td>
+<td> <p style=text-align:center;> <a href="e3.html"> <img src="e3a.jpg" alt="картинка Эм">  </a> </p> </td>
+<td> <p style=text-align:center;> <a href="e4.html"> <img src="e4a.jpg" alt="картинка Эр">  </a> </p> </td>
+</tr>
+<tr>
+<td>Ранний выпуск.</td>
+<td>Медная топка, на ряде машин установлен питательный колпак.</td>
+<td>Железная топка, на ряде машин установлен питательный колпак.</td>
+<td>Железная топка, несколько увеличена площадь колосниковой решетки.</td>
+</tr>
+</table>
+</p>
+<p>
+<table>
+<tr>
+<th style=width:27%;>ИС20 2П</th>
+<th style=width:27%;>ИС20 10П</th>
+<th style=width:26%;>ИС21</th>
+</tr>
+<tr>
+<td> <p style=text-align:center;> <a href="is1.html"> <img src="is1a.jpg" alt="картинка 2П">  </a> </p> </td>
+<td> <p style=text-align:center;> <a href="is2.html"> <img src="is2a.jpg" alt="картинка 10П">  </a> </p> </td>
+<td> <p style=text-align:center;> <a href="is3.html"> <img src="is3a.jpg" alt="картинка ИС21">  </a> </p> </td>
+</tr>
+<tr>
+<td>Установочная партия собранная на Коломенском заводе.</td>
+<td>Серийное производство на Луганском паровозостроительном заводе.</td>
+<td>Цельносварная модификация с пароперегревателем Чусова.</td>
+</tr>
+</table>
+</p>
+
+
+</div>
+</div>
+
+
+<footer>
+<p style="text-align:right;">
+
+<a href="parovoz.html"> НАЗАД </a>
+
+</p>
+
+</footer>
+
+</body>
+</html>
+
+

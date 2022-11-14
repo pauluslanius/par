@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+<title>Паровозы. Разные вопросы</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="description" content="Разные вопросы">
+
+<link rel="stylesheet" href="su.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body {
+  font-family: "Raleway", sans-serif;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h2 style=color:red;> Разные вопросики </h2>
+</header>
+
+<div class="row">
+  
+<div class="col-3">
+    <div class="aside">
+    <ul>
+      <li><a href="su1.html"> <p style=font-size:17px;color:white;>С<sup>у</sup>. Первый выпуск</p> </a></li>
+      <li><a href="su2.html"> <p style=font-size:17px;color:white;>С<sup>у</sup>. Второй выпуск</p> </a></li>      
+      <li><a href="su3.html"> <p style=font-size:17px;color:white;>С<sup>у</sup>. Третий выпуск</p> </a></li>
+      <li><a href="su4.html"> <p style=font-size:17px;color:white;>С<sup>у</sup>. Четвертый выпуск</p> </a></li>
+      
+      <li><a href="e1.html"> <p style=font-size:17px;color:white;>Э</p> </a></li>
+      <li><a href="e2.html"> <p style=font-size:17px;color:white;>Э<sup>у</sup></p> </a></li>      
+      <li><a href="e3.html"> <p style=font-size:17px;color:white;>Э<sup>м</sup></p> </a></li>
+      <li><a href="e4.html"> <p style=font-size:17px;color:white;>Э<sup>р</sup></p> </a></li>
+      
+      <li><a href="is1.html"> <p style=font-size:17px;color:white;>ИС20 2П</p> </a></li>
+      <li><a href="is2.html"> <p style=font-size:17px;color:white;>ИС20 10П</p> </a></li>      
+      <li><a href="is3.html"> <p style=font-size:17px;color:white;>ИС21</p> </a></li>
+
+      <li><a href="qviz.html"> <p style=font-size:17px;color:white;>Вопросы</p> </a></li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="col-7">
+<p style=text-align:center;>
+<img src="gen1.jpg" width=90%;>
+
+<p style="font-size:120%; color:green;"> Осечка пара</p>
+<p>это прекращение впуска пара в цилиндр паровой машины. Осуществляется закрытием впускного отверстия посредством золотника, клапана или крана.</p>
+<p>Именно отсечка и отвечает за характерное "Чуханье" паровоза. Чем чаще происходит отсечка - тем чаще звучит "чух".</p>
+<p>Ниже можно расчитать как часто будет "чухать" паровоз в зависимости от скорости его движения:</p>
+<hr>
+</p>
+<p style="font-size:120%; color:green;">Диаметр ведущего колеса в см</p>
+<input type="text" class="input-in1" placeholder="132 или 185"> <br>
+<hr>
+<p style="font-size:120%; color:green;">Количество цилиндров</p>
+<input type="text" class="input-in2" placeholder="Например 2 или 3"> <br>
+<hr>
+<p style="font-size:120%; color:green;">Скорость в км/час</p>
+<input type="text" class="input-in3"> <br>
+<hr>
+
+
+
+<button class="button">Количество "чухов" в секунду</button>
+
+
+
+<script>
+let inputIn1 = document.querySelector('.input-in1');
+let inputIn2 = document.querySelector('.input-in2');
+let inputIn3 = document.querySelector('.input-in3');
+let button = document.querySelector('button');
+
+button.onclick = function() {
+
+let xx=inputIn1.value;
+let yy=inputIn2.value;
+let zz=inputIn3.value;
+xx=+xx
+yy=+yy
+zz=+zz
+
+zz=(zz/3.6)*100
+xx=xx*3.14
+
+alert ((zz/xx)*yy*2);
+
+} 
+
+
+</script>
+
+
+
+
+  </div>
+
+  <div class="col-2 menu">
+    <ul>
+      <li><a href="201.jpg" target="_blank"> <h4>О ж/д колее</h4> </a></li>
+      <li><a href="202.jpg" target="_blank"> <h4>О названиях паровозов</h4> </a></li>
+      <li><a href="203.jpg" target="_blank"> <h4>Как выглядели паровозы</h4> </a></li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+<footer>
+<p style="text-align:right;">
+НАЗАД
+<a href="parovoz.html"> <img src="back.jpg"></a>
+</p>
+
+</footer>
+</body>
+</html>
